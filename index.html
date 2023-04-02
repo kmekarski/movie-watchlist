@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+        <link rel="stylesheet" href="index.css">
+        <!-- Google fonts - Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="header-text">
+                    <h1 class="header-title">Find your film</h1>
+                    <a class="header-link" href="/watchlist.html">My Watchlist</a>
+                </div>
+                <div class="form-container">
+                    <img class="form-icon" src="images/search-icon.png" alt="">
+                    <form id="search-form">
+                        <input type="text" id="search-input"> 
+                        <button class="search-btn" id="search-btn">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">  
+                <div class="movies hidden">
+                </div>
+                <div class="initial-state">
+                    <img class="initial-state-img" src="images/movies-empty.png" alt="">
+                    <p class="initial-state-text">Start exploring</p>
+                </div>  
+            </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
