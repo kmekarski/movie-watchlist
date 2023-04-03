@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="header-text">
                     <h1 class="header-title">Find your film</h1>
-                    <a class="header-link" href="/watchlist.html">My Watchlist</a>
+                    <p class="header-link switch-link">My Watchlist</a>
                 </div>
                 <div class="form-container">
                     <img class="form-icon" src="images/search-icon.png" alt="">
@@ -31,6 +31,16 @@
                     <img class="initial-state-img" src="images/movies-empty.png" alt="">
                     <p class="initial-state-text">Start exploring</p>
                 </div>  
+                <div class="no-matches hidden">
+                    <p class="no-matches-text">Unable to find what you’re looking for. Please try another search.</p>
+                </div>
+                <div class="watchlist-empty hidden">
+                    <p class="watchlist-empty-text">Your watchlist is looking a little empty...</p>
+                    <div class="watchlist-empty-link">
+                        <img class="watchlist-empty-icon switch-link" src="images/add-icon.png" alt="">
+                        <p class="switch-link">Let’s add some movies!</a>
+                    </div>
+                </div>
             </div>
         </div>
         <script src="index.js" type="module"></script>
